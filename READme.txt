@@ -1,3 +1,12 @@
+This script will deauthenticate unknown MAC addresses
+from both your 2.4GHz & 5GHz AP/Router simultaneously!
+In order for this script to work properly it requires:
+Two WiFi adapters that are capable of packet injection
+and one WiFi adapter connected to your WiFi AP/Router
+or utilizing ethernet. Note! the obvious is having..
+the two WiFi adapter with packet injection to One being
+able to access the 5GHz band. run sudo ./bouncer2.4_5GHz.sh in terminal to get started!
+
 UPDATE! 11/15/2020
 NEW VERIFY file, it is a copy of bouncer2.4_5GHz.sh, do not remove!
 it will be used to check if the script has been tampered with;
