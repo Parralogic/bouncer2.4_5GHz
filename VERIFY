@@ -11,7 +11,7 @@ if [[ ${UID} -ne 0 ]]; then
 	exit 1
 fi
 
-[[ -e VERIFY ]] || exit                                                                                                                                                                            #VRF6
+[[ -e VERIFY ]] || exit                                                                                                                                                                            
 
     RELAUNCH () {
 BRAND () {
@@ -114,7 +114,7 @@ mon24ghz=$(cat MYINFO | cut -d " " -f3)
 BSSID5=$(cat MYINFO | cut -d " " -f4)
 CH5=$(cat MYINFO | cut -d " " -f5)
 mon5ghz=$(cat MYINFO | cut -d " " -f6)
-[[ -z `cat enforcer5GHz.sh | grep bouncer` ]] && exec xterm -e rm bouncer2.4_5GHz.sh VERIFY timer.sh                                                                                                       #VRF5
+[[ -z `cat enforcer5GHz.sh | grep bouncer` ]] && exec xterm -e rm bouncer2.4_5GHz.sh VERIFY timer.sh                                                                                                       
 sed -i "s/[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*/$BSSID5/" enforcer5GHz.sh                                                                                                      #VRF3
 sed -i "s/adapter/$mon5ghz/" enforcer5GHz.sh
 sed -i "s/[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*:[0-9|A-Z]*/$BSSID24/" enforcer2.4GHz.sh                    
@@ -213,7 +213,7 @@ cat realattack
 echo -e "\e[00m"
 echo
 echo "Now validating 5GHz"
-MACS=$(wc -l ACTUALSTATIONS5-01.csv | cut -d " " -f1) #VRF5
+MACS=$(wc -l ACTUALSTATIONS5-01.csv | cut -d " " -f1)
 MACSactual=$(($MACS - 5 ))
 cat ACTUALSTATIONS5-01.csv | awk -F "," '{print $1}'| tail -$MACSactual > validate5ghz
 sleep .5
