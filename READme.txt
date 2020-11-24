@@ -7,6 +7,11 @@ or utilizing ethernet. Note! the obvious is having..
 the two WiFi adapter with packet injection to One being
 able to access the 5GHz band. run sudo ./bouncer2.4_5GHz.sh in terminal to get started!
 
+UPDATE! 11/24/2020
+Try it out!
+NOTE! The script is for a basic HOME setup router!
+Most Likely your ROUTER GATEWAY in a home setup will be 192.168.0.1 or 192.168.1.1 thats as basic as its going to get.
+
 UPDATE! 11/15/2020
 NEW VERIFY file, it is a copy of bouncer2.4_5GHz.sh, do not remove!
 it will be used to check if the script has been tampered with;
