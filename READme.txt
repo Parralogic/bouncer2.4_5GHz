@@ -48,6 +48,8 @@ trusted mac list selection!
 *If my script/s where helpful in any shape way or form or abstract idea
 :FANTASTIC! thats all that matters; and if you feel to contribute to my leisure time for the script/s
 please feel free to paypal me @ https://www.paypal.com/paypalme/Parralogic
+                                                    OR
+                                https://www.paypal.com/paypalme/MrParralogic
 
 UPDATE! 11/12/2020
 So far both methods working under my setup
