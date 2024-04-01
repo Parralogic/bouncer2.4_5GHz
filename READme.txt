@@ -46,10 +46,7 @@ right underneath ADAPTER5=$(grep "mon" enforcer5GHz.sh | cut -d "=" -f2);
 and just re-execut/run bouncer2.4_5GHz again and will take you back to the 
 trusted mac list selection!
 *If my script/s where helpful in any shape way or form or abstract idea
-:FANTASTIC! thats all that matters; and if you feel to contribute to my leisure time for the script/s
-please feel free to paypal me @ https://www.paypal.com/paypalme/Parralogic
-                                                    OR
-                                https://www.paypal.com/paypalme/MrParralogic
+:FANTASTIC! thats all that matters.
 
 UPDATE! 11/12/2020
 So far both methods working under my setup
